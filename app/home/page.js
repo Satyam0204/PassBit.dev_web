@@ -2,8 +2,10 @@ import React from 'react'
 
 function Dashboard() {
   return (
-    <div>
-    This is the best password managing site you could ever get!!!
+    <div className=' text-white'>
+    <button className=' bg-white p-5 text-black m-5' >
+      Sign IN
+    </button>
    </div>
   )
 }
