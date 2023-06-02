@@ -1,12 +1,11 @@
 import React from 'react'
+import Landing from '../../src/components/Dashboard/Landing'
 
 function Dashboard() {
   return (
-    <div className=' text-white'>
-    {/* <button className=' bg-white p-5 text-black m-5' >
-      Sign IN
-    </button> */}
-   </div>
+  <>
+  <Landing />
+  </>
   )
 }
 
